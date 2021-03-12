@@ -7,7 +7,7 @@
 <body>
     <?php
 
-    $mysqli = new mysqli("localhost", "me", "password", "dahlia");
+    $mysqli = new mysqli("localhost", "root", "", "dahlia");
 
     if ($mysqli->connect_errno) {
         echo "Failed to connect to MySQL: " . $mysqli->connect_error;
