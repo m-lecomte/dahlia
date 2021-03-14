@@ -1,0 +1,21 @@
+.footerFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerFooter, .footerUl {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footerMainNav {
+    width: 500px;
+    margin: auto;
+}
+
+.footerLi {
+    width: 150px;
+    padding: 15px;
+}

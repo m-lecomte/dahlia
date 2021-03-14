@@ -1,0 +1,33 @@
+.headerHeader, .headerUl {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+.headerLi {
+    padding: 15px 50px;
+}
+
+.headerLi a {
+    color: #f2f2f2;
+}
+
+.headerImage {
+    padding-left: 30px;
+}
+
+.fas {
+    font-size: 1.5em;
+}
+
+.headerLi:hover {
+    background-color: #ddd;
+    border-radius: 10%;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.headerLi:hover a {
+    color: black;
+}
