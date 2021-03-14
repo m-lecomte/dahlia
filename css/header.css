@@ -31,3 +31,7 @@
 .headerLi:hover a {
     color: black;
 }
+
+.headerAsideNav {
+    margin-right: 10px;
+}
