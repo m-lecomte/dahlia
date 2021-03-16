@@ -19,7 +19,8 @@ include 'php/headerIndex.inc.php';
         <input type="text" name="mail_address" id="mail" placeholder="Mail Address">
         <input type="password" name="password" id="pwd" placeholder="Password">
         <input type="submit" value="Log In">
-        <p class="smallText">Don't have an account yet ? Register <a href="register.php">here</a> !</p>
+        <p class="smallText">Don't have an account yet ? Register <a href="register.php">here</a> !</br></br>Forget your
+            password ? Click <a href="">here</a> !</p>
     </form>
 </div>
 <?php

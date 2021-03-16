@@ -14,6 +14,14 @@
 include 'php/header.inc.php';
 ?>
 <div class="content">
+    <form action="#.php">
+        <span class="post">
+        <input type="text" name="post" id="post" placeholder="What's on your thoughts ?">
+        <input type="submit" value="Post">
+        </span>
+    </form>
+    <div class="feed">
+    </div>
 </div>
 <?php
 include 'php/footer.inc.php';
