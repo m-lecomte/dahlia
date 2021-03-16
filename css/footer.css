@@ -11,19 +11,20 @@
 }
 
 .footerMainNav {
-    width: 500px;
+    width: 750px;
     margin: auto;
 }
 
 .footerLi {
-    width: 150px;
-    padding: 15px;
-    text-align: center;
+    padding: 20px;
 }
 
 .footerLi a {
     color: #f2f2f2;
     text-decoration: none;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
 }
 
 .footerLi:hover {

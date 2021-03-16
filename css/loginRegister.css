@@ -64,14 +64,6 @@ form {
     height: 40%;
 }
 
-.pic {
-    height: 50px;
-}
-
-.lang {
-    margin-left: auto;
-}
-
 .genderForm {
     display: flex;
     justify-content: space-between;
