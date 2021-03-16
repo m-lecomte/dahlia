@@ -18,6 +18,10 @@ body {
     width: 500px;
 }
 
+.smallText {
+    font-size: 14px;
+}
+
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
