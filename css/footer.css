@@ -18,4 +18,21 @@
 .footerLi {
     width: 150px;
     padding: 15px;
+    text-align: center;
+}
+
+.footerLi a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.footerLi:hover {
+    background-color: #ddd;
+    border-radius: 10%;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.footerLi:hover a {
+    color: black;
 }

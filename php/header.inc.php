@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/header.css">
 <header class="headerHeader">
-    <a href="../index.php">
+    <a href="testIndex.php">
         <img class="headerImage" src="img/main.png" alt="Dahlia's logo"/>
     </a>
     <nav class="headerMainNav">
@@ -13,7 +13,7 @@
     <nav class="headerAsideNav">
         <ul class="headerUl">
             <li class="headerLi"><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
-            <li class="headerLi"><a href=""><i class="fas fa-sign-in-alt"></i></a></li>
+            <li class="headerLi"><a href="login.php"><i class="fas fa-sign-in-alt"></i></a></li>
         </ul>
     </nav>
 
