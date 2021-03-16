@@ -16,7 +16,25 @@ include 'php/headerIndex.inc.php';
 <div class="content">
     <a><img src="img/sphere.png" alt="sphere" class="sphere"></a>
     <form action="#.php">
-        <input type="text" id="mail" name="mail_address" placeholder="Mail Address">
+        <input type="text" name="firstname" id="fname" placeholder="First Name">
+        <input type="text" name="lastname" id="lname" placeholder="Last Name">
+        <input type="date" name="birthday" id="bday">
+        <span class="genderForm">
+            <p>Your gender:</p>
+        <span>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male"/>
+        </span>
+        <span>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female"/>
+        </span>
+        <span>
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other"/>
+        </span>
+        </span>
+        <input type="email" name="mailaddress" id="mail" placeholder="Mail Address">
         <input type="password" id="pwd" name="password" placeholder="Password">
         <input type="submit" value="Register">
     </form>

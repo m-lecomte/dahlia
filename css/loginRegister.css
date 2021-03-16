@@ -22,7 +22,7 @@ body {
     font-size: 14px;
 }
 
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=email], input[type=date], input[type=radio], .genderForm {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -55,7 +55,7 @@ form {
     background-color: #f2f2f2;
     padding: 20px;
     margin-right: 12.5%;
-    margin-top: 12.5%;
+    margin-top: 7.5%;
 }
 
 .sphere {
@@ -70,4 +70,10 @@ form {
 
 .lang {
     margin-left: auto;
+}
+
+.genderForm {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
 }

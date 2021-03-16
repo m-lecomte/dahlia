@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/header.css">
 <header class="headerHeader">
-    <a href="testIndex.php">
+    <a href="index.php">
         <img class="headerImage" src="img/main.png" alt="Dahlia's logo"/>
     </a>
     <nav class="headerAsideNav">
