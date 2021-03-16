@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php
-include 'php/header.inc.php';
+include 'php/headerIndex.inc.php';
 ?>
 <div class="content">
     <a><img src="img/sphere.png" alt="sphere" class="sphere"></a>

@@ -11,15 +11,15 @@
 </head>
 <body>
 <?php
-include 'php/header.inc.php';
+include 'php/headerIndex.inc.php';
 ?>
 <div class="content">
     <a><img src="img/sphere.png" alt="sphere" class="sphere"></a>
     <form action="#.php">
-        <input type="text" id="fname" name="firstname" placeholder="Mail Address">
-        <input type="password" id="lname" name="lastname" placeholder="Password">
+        <input type="text" id="mail" name="mail_address" placeholder="Mail Address">
+        <input type="password" id="pwd" name="password" placeholder="Password">
         <input type="submit" value="Log In">
-        <p class="smallText">Don't have an account yet ? Register <a href="register.php>">here</a> !</p>
+        <p class="smallText">Don't have an account yet ? Register <a href="register.php">here</a> !</p>
     </form>
 </div>
 <?php
