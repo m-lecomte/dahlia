@@ -17,7 +17,7 @@ include 'php/header.inc.php';
     <a><img src="img/sphere.png" alt="sphere" class="sphere"></a>
     <div class="rightContent">
         <p class="text">Welcome to Dahlia, your blooming social media !</p>
-        <video src="documents/" controls width="600"></video>
+        <iframe width="600" height="337.5" src="https://www.youtube.com/embed/NPWKhczcbI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
 <?php

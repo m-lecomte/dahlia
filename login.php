@@ -19,7 +19,7 @@ include 'php/header.inc.php';
         <input type="text" id="fname" name="firstname" placeholder="Mail Address">
         <input type="password" id="lname" name="lastname" placeholder="Password">
         <input type="submit" value="Log In">
-        <p class="smallText">Does not have an account yet ? Register <a href="register.php>">here</a> !</p>
+        <p class="smallText">Don't have an account yet ? Register <a href="register.php>">here</a> !</p>
     </form>
 </div>
 <?php
