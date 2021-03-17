@@ -21,6 +21,7 @@ include 'php/header.inc.php';
         </span>
     </form>
     <div class="feed">
+
     </div>
 </div>
 <?php
